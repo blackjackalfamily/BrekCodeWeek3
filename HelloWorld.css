@@ -1,0 +1,84 @@
+/* CSS styles */
+body {
+    background-color: rgba(63, 10, 112, 0.555);
+    /* Dark background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.outer-circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(5, 36, 54);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element-button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(6, 5, 56);
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    background-color: #dbd8d8;
+    /* Set icon color to white */
+}
+
+/* Positioning for elements */
+
+#counter { 
+    top: -50%;
+    background-color: red;
+}
+#fire {
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: crimson;
+    display: none;
+}
+
+
+#water {
+    top: calc(50% - 40px);
+    right: -10%;
+    color: rgb(78, 130, 209);
+    display: none;
+}
+
+#earth {
+    bottom: 0;
+    right: calc(20% - 20px);
+    color: rgb(20, 107, 20);
+    display: none;
+}
+
+#electricity {
+    bottom: calc(20% - 40px);
+    left: 10%;
+    color: rgb(172, 150, 28);
+    display: none;
+}
+
+#air {
+    top: calc(40% - 20px);
+    left: calc(10% - 40px);
+    color:rgb(63, 64, 65);
+    display: none;
+  
+}
+
+#human {
+    color:rgb(0, 0, 0);
+    display: none;
+
+}
